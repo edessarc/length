@@ -1,5 +1,4 @@
 import os
-import glob
 
 #directory = input('Please type the directory you want to check for the longest name: \n')
 

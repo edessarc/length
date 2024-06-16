@@ -10,7 +10,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: arm64
+    runs-on: self-hosted
 
 
     steps:

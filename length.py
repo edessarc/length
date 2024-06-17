@@ -1,5 +1,4 @@
 import os
-import glob
 import sys
 
 directory = sys.argv[1]

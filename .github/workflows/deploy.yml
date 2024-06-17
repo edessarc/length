@@ -23,4 +23,4 @@ jobs:
          password: ${{ secrets.DOCKER_PASSWORD }}
       -  name: Deploy in cluster
          run: |
-         kubectl set image deployment/length=${{ secrets.DOCKER_USERNAME }}/length:latest
+           kubectl set image deployment/length=${{ secrets.DOCKER_USERNAME }}/length:latest

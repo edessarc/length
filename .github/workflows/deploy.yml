@@ -1,4 +1,3 @@
-n
 name: Build and deploy an app to AKS
 
 on:

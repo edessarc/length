@@ -26,6 +26,4 @@ jobs:
               manifests: |
                  manifests/deployment.yml
               images: |
-                  nginx:1.17.3
-              imagepullsecrets: |
-                 demo-k8s-secret
+                  gstogiannis.azurecr.io/gstogianns/length:latest

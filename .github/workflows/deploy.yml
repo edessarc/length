@@ -35,6 +35,9 @@ jobs:
       - name: Configure kubectl
         run: |
           echo "${{ secrets.KUBE_CONFIG }}" > $HOME/.kube/config
+          echo "${{ secrets.KUBE_CLIENT_CERT }}" > $HOME/.kube/client.crt
+          echo "${{ secrets.KUBE_CLIENT_KEY }}" > $HOME/.kube/client.key
+          echo "${{ secrets.KUBE_CA_CERT }}" > $HOME/.kube/ca.crt
       - name: Deploy in cluster
         run: |
            kubectl set image deployment/length=${{ secrets.DOCKER_USERNAME }}/length:latest

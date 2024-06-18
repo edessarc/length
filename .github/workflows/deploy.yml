@@ -24,7 +24,7 @@ jobs:
            with:
               action: deploy
               manifests: |
-                 deployment.yml
+                 manifests/deployment.yml
               images: |
                  gstogiannis.azurecr.io/gstogianns/length:latest
               imagepullsecrets: |

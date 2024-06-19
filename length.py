@@ -1,6 +1,6 @@
 import os
 import sys
-
+import glob
 directory = sys.argv[1]
 
 index = ""

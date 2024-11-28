@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent "kali-linux"
     stages {
         stage('Build') {
             steps {
